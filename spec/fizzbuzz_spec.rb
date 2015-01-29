@@ -24,6 +24,10 @@ describe 'Fizzbuzz' do
       expect(divisible_by_fifteen?(15)).to be true
     end
 
+    it 'is NOT divisible by 15' do
+      expect(divisible_by_fifteen?(1)).to be false
+    end
+
   end
 
 end

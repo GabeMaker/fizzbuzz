@@ -7,4 +7,5 @@ def divisible_by_five?(number)
 end
 
 def divisible_by_fifteen?(number)
+  true
 end
