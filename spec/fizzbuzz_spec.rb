@@ -19,7 +19,11 @@ describe 'Fizzbuzz' do
     it 'is NOT divisible by 5' do
       expect(divisible_by_five?(6)).to be false
     end
-  
+
+    it 'is divisible by 15' do
+      expect(divisible_by_fifteen?(15)).to be true
+    end
+
   end
 
 end
