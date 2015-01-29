@@ -47,7 +47,6 @@ describe 'Fizzbuzz' do
     it "'number' when a number is not divisible by three or five" do
       expect(fizzbuzz_says(1)).to eq 1 
     end
-
   end
 
 end
