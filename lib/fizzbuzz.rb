@@ -3,4 +3,5 @@ def divisible_by_three?(number)
 end
 
 def divisible_by_five?(number)
+  true
 end
