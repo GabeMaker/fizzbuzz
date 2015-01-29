@@ -1,2 +1,2 @@
-def divisible_by_three?
+def divisible_by_three?(number)
 end
