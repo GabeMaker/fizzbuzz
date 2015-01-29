@@ -30,4 +30,24 @@ describe 'Fizzbuzz' do
 
   end
 
+  context 'says' do
+
+    it "'Fizz' when a number is divisible by 3" do
+      expect(fizzbuzz_says(3)).to eq "Fizz"
+    end
+    
+    it "'Buzz' when a number is divisible by 5" do
+      expect(fizzbuzz_says(5)).to eq "Buzz"
+    end
+
+    it "'FizzBuzz' when a number is divisible by three and five" do
+      expect(fizzbuzz_says(15)).to eq "FizzBuzz"
+    end
+
+    it "'number' when a number is not divisible by three or five" do
+      expect(fizzbuzz_says(1)).to eq 1 
+    end
+
+  end
+
 end
