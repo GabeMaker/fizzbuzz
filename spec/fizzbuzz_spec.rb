@@ -16,6 +16,10 @@ describe 'Fizzbuzz' do
       expect(divisible_by_five?(5)).to be true
     end
 
+    it 'is NOT divisible by 5' do
+      expect(divisible_by_five?(6)).to be false
+    end
+  
   end
 
 end
